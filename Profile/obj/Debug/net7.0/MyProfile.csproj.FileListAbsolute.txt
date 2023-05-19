@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\Entity Framework\Profile\Profile\Profile\obj\Debug\net7.0\MyProfile.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Entity Framework\Profile\Profile\Profile\obj\Debug\net7.0\MyProfile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Entity Framework\Profile\Profile\Profile\obj\Debug\net7.0\MyProfile.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Entity Framework\Profile\Profile\Profile\obj\Debug\net7.0\MyProfile.AssemblyInfo.cs
+C:\Users\user\Desktop\Entity Framework\Profile\Profile\Profile\obj\Debug\net7.0\MyProfile.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Entity Framework\Profile\Profile\Profile\obj\Debug\net7.0\MyProfile.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\Entity Framework\Profile\Profile\Profile\obj\Debug\net7.0\MyProfile.MvcApplicationPartsAssemblyInfo.cache
