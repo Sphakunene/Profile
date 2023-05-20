@@ -12,7 +12,5 @@ namespace Persons.mapper
             CreateMap<Person, PersonResponse>();
             CreateMap<PersonRequest, Person>();
         }
-
     }
-    
 }
