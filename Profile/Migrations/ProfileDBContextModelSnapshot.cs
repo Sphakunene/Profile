@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Profile.DataAccess;
+using Persons.DataAccess;
 
 #nullable disable
 
-namespace Profile.Migrations
+namespace Persons.Migrations
 {
     [DbContext(typeof(ProfileDBContext))]
     partial class ProfileDBContextModelSnapshot : ModelSnapshot

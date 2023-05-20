@@ -74,3 +74,10 @@ C:\Users\user\Desktop\Entity Framework\Profile\Profile\Profile\obj\Debug\net7.0\
 C:\Users\user\Desktop\Entity Framework\Profile\Profile\Profile\obj\Debug\net7.0\Profile.pdb
 C:\Users\user\Desktop\Entity Framework\Profile\Profile\Profile\obj\Debug\net7.0\Profile.genruntimeconfig.cache
 C:\Users\user\Desktop\Entity Framework\Profile\Profile\Profile\obj\Debug\net7.0\ref\Profile.dll
+C:\Users\ACER\source\poc\Profile\Profile\obj\Debug\net7.0\Profile.csproj.AssemblyReference.cache
+C:\Users\ACER\source\poc\Profile\Profile\obj\Debug\net7.0\Profile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\source\poc\Profile\Profile\obj\Debug\net7.0\Profile.AssemblyInfoInputs.cache
+C:\Users\ACER\source\poc\Profile\Profile\obj\Debug\net7.0\Profile.AssemblyInfo.cs
+C:\Users\ACER\source\poc\Profile\Profile\obj\Debug\net7.0\Profile.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\poc\Profile\Profile\obj\Debug\net7.0\Profile.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ACER\source\poc\Profile\Profile\obj\Debug\net7.0\Profile.MvcApplicationPartsAssemblyInfo.cache
