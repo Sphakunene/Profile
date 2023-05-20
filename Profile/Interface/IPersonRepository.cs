@@ -1,6 +1,6 @@
-﻿using Profile.Model;
+﻿using Persons.Model;
 
-namespace Profile.Interface
+namespace Persons.Interface
 {
     public interface IPersonRepository
 

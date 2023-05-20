@@ -1,9 +1,10 @@
-﻿using Profile.DataAccess;
-using Profile.Interface;
-using Profile.Model;
-using Profile.dtos;
+﻿using Persons.DataAccess;
+using Persons.Interface;
+using Persons.Model;
+using Persons.dtos;
+using AutoMapper;
 
-namespace Profile.Service
+namespace Persons.Service
 {
     public class PersonService : IPersonService
     {
@@ -22,8 +23,8 @@ namespace Profile.Service
         {
             Person person = _mapper.Map<Person>(personRequest);
             await _repository.AddAsync(person);
-            PersonResponse = _mapper.Map<PersonRequest>(PersonResponse);
-            return PersonResponse;
+            PersonResponse personResponse = _mapper.Map<PersonResponse>(person);
+            return personResponse;
         }
     }
 }

@@ -1,8 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using Profile.DataAccess;
-using Profile.Interface;
-using Profile.Repository;
-using Profile.Service;
+using Persons.DataAccess;
+using Persons.Interface;
+using Persons.Repository;
+using Persons.Service;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +21,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IPersonService, PersonService>();
 builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>));
 builder.Services.AddScoped<IPersonRepository, PersonRepository>();
-
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
 var app = builder.Build();
 

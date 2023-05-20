@@ -1,6 +1,6 @@
-﻿using Profile.dtos;
+﻿using Persons.dtos;
 
-namespace Profile.Interface
+namespace Persons.Interface
 {
     public interface IPersonService
     {

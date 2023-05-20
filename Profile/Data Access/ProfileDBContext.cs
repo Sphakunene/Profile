@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Profile.Model;
+using Persons.Model;
 
-namespace Profile.DataAccess
+namespace Persons.DataAccess
 {
     public class ProfileDBContext: DbContext
     {

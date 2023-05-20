@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using Profile.Interface;
-using Profile.dtos;
+using Persons.Interface;
+using Persons.dtos;
 
-namespace Profile.Controllers
+namespace Persons.Controllers
 {
     [ApiController]
     [Route("[controller]")]

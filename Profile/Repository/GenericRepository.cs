@@ -1,8 +1,8 @@
-﻿using Profile.DataAccess;
-using Profile.Interface;
-using Profile.Model;
+﻿using Persons.DataAccess;
+using Persons.Interface;
+using Persons.Model;
 
-namespace Profile.Repository
+namespace Persons.Repository
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {

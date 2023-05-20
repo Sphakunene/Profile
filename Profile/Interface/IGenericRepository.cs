@@ -1,4 +1,4 @@
-﻿namespace Profile.Interface
+﻿namespace Persons.Interface
 {
     public interface IGenericRepository<T> where T : class
     {
