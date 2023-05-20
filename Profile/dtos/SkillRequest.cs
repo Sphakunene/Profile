@@ -1,13 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Profile.Model
+namespace Profile.dtos
 {
-    public class Skill
+    public class SkillRequest
     {
-        [Key]
-        [Required]
-        public int Id { get; set; }
         [Required]
         public string? Name { get; set; }
         [Required]

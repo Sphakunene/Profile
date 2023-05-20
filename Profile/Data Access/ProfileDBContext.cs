@@ -13,7 +13,5 @@ namespace Profile.DataAccess
         public DbSet<Person> Persons { set; get; }
 
         public DbSet<Skill> skills { set; get; }
-
-
     }
 }

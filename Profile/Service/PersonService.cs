@@ -8,20 +8,21 @@ namespace Profile.Service
     {
 
         private readonly IPersonRepository _repository;
+        private readonly IMapper _mapper;
         
 
-        public PersonService(IPersonRepository repository)
+        public PersonService(IPersonRepository repository,IMapper mapper)
         {
             _repository = repository;
-            
+            _mapper = mapper;
         }
 
-
-
-        public async Task<Person> CreateAsync(Person person)
+        public async Task<PersonResponse> CreateAsync(PersonRequest personRequest)
         {
-            
-            return await _repository.Add(person);
+            Person person = _mapper.Map<Person>(personRequest);
+            await _repository.AddAsync(person);
+            PersonResponse = _mapper.Map<PersonRequest>(PersonResponse);
+            return PersonResponse;
         }
     }
 }

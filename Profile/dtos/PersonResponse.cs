@@ -1,11 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Profile.Model
+namespace Profile.dtos
 {
-    public class Person
+    public class PersonResponse
     {
-        [key]
         [Required]
         public int Id { get; set; }
         [Required]
@@ -26,6 +25,6 @@ namespace Profile.Model
         public string? Password { get; set; }
         
         [ForeignKey("SkillId")]
-        public ICollection<Skill> Skills { get; set; }
+        public ICollection<SkillResponse> Skills { get; set; }
     }
 }

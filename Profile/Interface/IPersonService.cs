@@ -1,9 +1,9 @@
-﻿using Profile.Model;
+﻿using Profile.dtos;
 
 namespace Profile.Interface
 {
     public interface IPersonService
     {
-     Task<Person> CreateAsync(Person person );
+     Task<PersonResponse> CreateAsync(PersonRequest personRequest);
     }
 }

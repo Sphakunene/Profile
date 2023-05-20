@@ -5,14 +5,16 @@ namespace Profile.Interface
     public interface IPersonRepository
 
     {
-        Task<Person> Add(Person entity);
+        Task<Person> AddAsync(Person person);
 
-        Task<Person> Update(Person entity);
+        Task<Person> UpdateAsync(Person person);
 
-        Task<Person> Delete(Person entity);
+        Task<Person> DeleteAsync(Person person);
 
-        Task<IEnumerable<Person>> GetAll();
+        Task<Person> DeleteByIdAsync(Person person);
+   
+        Task<IEnumerable<Person>> GetAllAsync(int personId);
 
-        Task<Person> GetById(int id);
+        Task<Person> GetByIdAsync(int personId);
     }
 }

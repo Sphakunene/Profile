@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Profile.Interface;
-using Profile.Model;
+using Profile.dtos;
 
 namespace Profile.Controllers
 {
@@ -16,9 +16,9 @@ namespace Profile.Controllers
         
         }
         [HttpPost]
-        public async Task<ActionResult<Person>> Creatuser(Person person) { 
+        public async Task<ActionResult<PersonResponse>> Creatuser(PersonRequest personRequest) { 
 
-            Person result = await _personService.CreateAsync(person);
+            PersonResponse result = await _personService.CreateAsync(personRequest);
 
             return Ok(result);
         }

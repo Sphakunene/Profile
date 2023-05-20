@@ -13,29 +13,29 @@ namespace Profile.Repository
         {
             profileDBContext = _profileDBContext;
         }
-        public async Task<T> Add(T entity)
+        public async Task<T> AddAsync(T entity)
         {
             await profileDBContext.Set<T>().AddAsync(entity);
             profileDBContext.SaveChanges();
             return entity;
         }
 
-        public Task<T> Delete(T entity)
+        public Task<T> DeleteAsync(T entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<T>> GetAll()
+        public Task<IEnumerable<T>> GetAllAsync()
         {
             throw new NotImplementedException();
         }
 
-        public Task<T> GetById(int id)
+        public Task<T> GetByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<T> Update(T entity)
+        public Task<T> UpdateAsync(T entity)
         {
             throw new NotImplementedException();
         }
