@@ -11,9 +11,9 @@ namespace Profile.Interface
 
         Task<Person> DeleteAsync(Person person);
 
-        Task<Person> DeleteByIdAsync(Person person);
+        Task<Person> DeleteByIdAsync(int personId);
    
-        Task<IEnumerable<Person>> GetAllAsync(int personId);
+        Task<IEnumerable<Person>> GetAllAsync();
 
         Task<Person> GetByIdAsync(int personId);
     }

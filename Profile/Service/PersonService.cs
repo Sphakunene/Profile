@@ -1,6 +1,7 @@
 ﻿using Profile.DataAccess;
 using Profile.Interface;
 using Profile.Model;
+using Profile.dtos;
 
 namespace Profile.Service
 {

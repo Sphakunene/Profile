@@ -5,7 +5,7 @@ namespace Profile.Model
 {
     public class Person
     {
-        [key]
+        [Key]
         [Required]
         public int Id { get; set; }
         [Required]
