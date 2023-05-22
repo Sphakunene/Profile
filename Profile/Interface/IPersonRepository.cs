@@ -9,7 +9,7 @@ namespace Persons.Interface
 
         Task<Person> UpdateAsync(Person person);
 
-        Task<Person> DeleteAsync(Person person);
+        Person DeleteAsync(Person person);
 
         Task<Person> DeleteByIdAsync(int personId);
    

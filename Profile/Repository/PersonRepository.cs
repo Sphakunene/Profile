@@ -22,9 +22,11 @@ namespace Persons.Repository
             return entity;
         }
 
-        public Task<Person> DeleteAsync(Person entity)
+        public  Person DeleteAsync(Person entity)
         {
-            throw new NotImplementedException();
+            profileDBContext.Set<Person>().Remove(entity);
+
+            return entity;
         }
 
         public Task<IEnumerable<Person>> GetAllAsync()

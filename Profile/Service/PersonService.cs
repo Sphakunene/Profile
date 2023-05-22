@@ -19,12 +19,12 @@ namespace Persons.Service
             _mapper = mapper;
         }
 
-        public async Task<PersonResponse> CreateAsync(PersonRequest personRequest)
+        public async Task<Person> CreateAsync(Person personRequest)
         {
-            Person person = _mapper.Map<Person>(personRequest);
-            await _repository.AddAsync(person);
-            PersonResponse personResponse = _mapper.Map<PersonResponse>(person);
-            return personResponse;
+           // Person person = _mapper.Map<Person>(personRequest);
+            await _repository.AddAsync(personRequest);
+            //PersonResponse personResponse = _mapper.Map<PersonResponse>(person);
+            return personRequest;
         }
     }
 }

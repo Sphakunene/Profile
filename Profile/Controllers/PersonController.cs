@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Persons.Interface;
 using Persons.dtos;
+using Persons.Model;
 
 namespace Persons.Controllers
 {
@@ -16,9 +17,9 @@ namespace Persons.Controllers
         
         }
         [HttpPost]
-        public async Task<ActionResult<PersonResponse>> Creatuser(PersonRequest personRequest) { 
+        public async Task<ActionResult<Person>> Creatuser(Person person) { 
 
-            PersonResponse result = await _personService.CreateAsync(personRequest);
+            Person result = await _personService.CreateAsync(person);
 
             return Ok(result);
         }

@@ -26,6 +26,6 @@ namespace Persons.Model
         public string? Password { get; set; }
         
         [ForeignKey("SkillId")]
-        public ICollection<Skill> Skills { get; set; }
+        public ICollection<Skill> ?Skills { get; set; }
     }
 }
